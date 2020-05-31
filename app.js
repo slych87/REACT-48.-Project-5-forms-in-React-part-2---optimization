@@ -49,10 +49,10 @@ class Form extends React.Component {
             <option value="more">więcej</option>
           </select>
         </label>
+
       </div>
     )
   }
 }
-
 
 ReactDOM.render(<Form />, document.getElementById('root'))
